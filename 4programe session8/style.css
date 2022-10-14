@@ -1,0 +1,111 @@
+/*background
+text align
+z index
+style link & lists
+
+hight
+width
+min-width
+max-width
+min-hight
+max-hight*/
+
+body {
+background-image:url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg) ;   
+background-repeat:no-repeat ;
+background-size: cover;
+}
+
+#title
+{
+/*background-color: red;*/
+text-align: center;
+}
+p{
+ text-align:justify ;   
+}
+#p1
+{
+ background-color: blue;
+ width: 50%;
+ z-index: 100;
+}
+#p2
+{
+ background-color:red ; 
+ width: 50%; 
+ margin-top: -6rem;
+ z-index: 1000;
+ }
+#button
+{
+ background-color: black;
+ padding:0.5rem;   
+ color: white;
+ text-decoration: none;
+}
+ul{
+  background-color:powderblue ;  
+  padding: 2rem;
+}
+li{
+    background-color: purple;
+    margin: 1rem;
+    padding: 0.5rem;
+   /* list-style: upper-roman;
+   list-style: none;*/
+}
+
+#none {
+    list-style-image: url(https://interactive-examples.mdn.mozilla.net/media/examples/rocket.svg);
+    list-style-type: none;
+}
+#box
+{
+  background-color: aqua;
+  width: 50rem;
+  height: 10rem;
+}
+
+#box2
+{
+  background-color:green;
+  width:40rem ;
+  height:10rem;
+}
+#setdisplay{
+background-color: yellow;
+  padding: 1rem;
+  margin: 1rem;
+
+  
+  
+  display: inline;
+}
+span
+{
+  background-color: red;
+}
+#line1
+{
+  display: block;
+}
+#line2
+{
+  margin: 1rem;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+}
+#line3
+{
+  display: none;
+}
+
+#InlineLink
+{
+background-color: crimson;
+text-decoration: none;
+color: white;
+border: 1px solid pink;
+}

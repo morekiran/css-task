@@ -1,0 +1,35 @@
+#box{
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+/* pseudo class*/
+#box:hover{
+    background-color: brown;
+}
+
+a:visited{
+    color:lightgray;
+}
+
+/* pseudo elements */ 
+
+#pseudoelements::before {
+    content: "--------This is starting of paragraph";
+}
+
+#pseudoelements::after {
+    content: "This is end of paragraph--------";
+}
+  
+
+
+
+
+
+
+
+
+
+

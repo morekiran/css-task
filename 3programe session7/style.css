@@ -1,0 +1,59 @@
+/* h1,span {
+    background-color:red;
+    border: 1px solid black;
+} */
+
+/* CSS RESET */
+ /* * { 
+    margin: 0;
+    padding: auto;
+} */
+
+input[type = "submit"] {
+    background-color: rgb(10, 196, 7);
+    color: white;
+}
+
+#boxes {
+    background-color: aqua;
+}
+
+/* #boxes span {
+    background-color:blue;
+} */
+
+/* #boxes > span {
+    background-color:blue;
+} */
+
+#boxes + span {
+    background-color:blue;
+}
+
+#boxes ~ span {
+    background-color:blue;
+}
+
+/* colors in css (140 valid color)*/
+
+/* 1. color name */
+
+#div1{
+    background-color:red;
+}
+
+/* 2. RGB color (0 -255) */
+#div2{
+    background-color: rgb(0,0,255);
+}
+
+/* 3.HEX code (0-9,a-f */
+#div3{
+    background-color: #7f2d4f;
+}
+
+/* 4. HSL (hue saturation,lightness */
+#div4{
+    background-color: rgb(183, 183, 14);
+}
+

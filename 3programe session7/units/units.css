@@ -1,0 +1,32 @@
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+   }
+
+#box1{
+    width: 200px;
+    height: 200px;
+}
+
+#box2{
+    width: 20%;
+    height: 20%;
+}
+#box3{
+    /* 1em = 16px , 50rem = 800px */
+    width: 10em;
+    height: 10em;
+    font-size: 2em;
+}
+
+#box4{
+    /* 1em = 16px , 50rem = 800px - responsive em  */
+    width: 10rem;
+    height: 10rem;
+    font-size: 2rem;
+}
+
+#box5{
+    width: 30rem; /*viewport width*/
+    height: 30rem; /* viewport hight*/
+}

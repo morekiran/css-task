@@ -1,0 +1,107 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alkalami&family=Aref+Ruqaa+Ink&display=swap');
+
+
+#title
+{
+   font-family: 'Alkalami', serif;
+
+}
+
+
+h1{font-family: 'Alfa Slab One', cursive;
+}
+
+.box p {
+   font-family: 'Aref Ruqaa Ink', serif;
+
+}
+
+#float
+{
+   background-color: red;
+   float: right;
+   /*text-align: right;*/
+   padding: 3rem;
+   margin:3rem 0;
+}
+
+/*----------------css positions--------------------*/
+/* 1. Relative */
+
+#Relative
+{
+   background-color: red;
+   margin: 2 rem;
+   padding: 2rem;
+   height: 8rem;
+}
+
+#Relative p {
+
+   background-color: white;
+   border: 1px solid black;
+   position: relative ;
+  /* left: 5rem;*/
+   right: 2rem;
+   top: 3rem;
+  /* bottom: 3rem;*/
+} 
+/* 2.*/
+#Absolute
+{
+   background-color: red;
+   margin: 2 rem;
+   padding: 2rem;
+   height: 8rem;
+}
+
+#Absolute p{
+
+   background-color: white;
+   border: 1px solid black;
+   position: Absolute ;
+   top: 5rem;
+   right: 3rem;
+ }
+
+/* 3. Fixed */
+#specialnews
+{
+   position: fixed;
+   bottom: 0rem;
+}   
+/* 4. sticky */
+
+#sticky
+{
+   position: sticky;
+   top: 5rem;
+   
+}
+
+/* static */
+#static
+{
+   position: static;
+}
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
