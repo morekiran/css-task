@@ -14,6 +14,7 @@ body {
 background-image:url(https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg) ;   
 background-repeat:no-repeat ;
 background-size: cover;
+position: relative;
 }
 
 #title
@@ -28,6 +29,7 @@ p{
 {
  background-color: blue;
  width: 50%;
+ position: absolute;
  z-index: 100;
 }
 #p2
@@ -35,10 +37,11 @@ p{
  background-color:red ; 
  width: 50%; 
  margin-top: -6rem;
- z-index: 1000;
+ position: absolute;
+ z-index: 10000;
  }
-#button
-{
+ #button
+ {
  background-color: black;
  padding:0.5rem;   
  color: white;

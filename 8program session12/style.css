@@ -28,8 +28,9 @@
     background-color:crimson;
     color: white;
     text-align: center;
-
     border-radius: 20%;
+    padding-top: 1.5rem;
+
     
     font-family: 'Press Start 2P', cursive;
 
@@ -45,6 +46,7 @@
     grid-row-end : 2;
   text-align: right;
   padding: 0.5rem;
+  padding-top: 1.5rem;
 }
 
 /* grid properties for child */
@@ -61,6 +63,7 @@
     grid-column-end : 5;
     grid-row-start : 3;
     grid-row-end : 4;
+
 }
 
 #item14{
@@ -68,6 +71,7 @@
     grid-column-end : 5;
     grid-row-start : 4;
     grid-row-end : 5;
+
 }
 
 #item15{
@@ -75,6 +79,7 @@
     grid-column-end : 5;
     grid-row-start : 5;
     grid-row-end : 6;
+
 }
 
 #item17{
@@ -84,4 +89,5 @@
     grid-row-start : 4;
     grid-row-end : 5; */
     grid-row:6/6;/*short code*/
+    padding-bottom: 1.5rem;
 }

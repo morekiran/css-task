@@ -7,7 +7,7 @@
     width: 200px;
     height: 200px;
 }
-
+ 
 #box2{
     width: 20%;
     height: 20%;
@@ -27,6 +27,6 @@
 }
 
 #box5{
-    width: 30rem; /*viewport width*/
-    height: 30rem; /* viewport hight*/
+    width: 50vw; /*viewport width*/
+    height: 50vh; /* viewport hight*/
 }
